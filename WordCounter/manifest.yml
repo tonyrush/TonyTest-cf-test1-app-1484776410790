@@ -3,6 +3,5 @@ applications:
   host: wordcounter-idsdemo
   disk: 1024M
   path: WordCounter.war
-  domain: mybluemix.net
   memory: 512M
   instances: 1
