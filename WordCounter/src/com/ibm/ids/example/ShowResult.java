@@ -35,7 +35,7 @@ public class ShowResult extends HttpServlet {
 		//Print response to the Web Page
 		response.setContentType("text/plain");
 	    PrintWriter out = response.getWriter();
-	    out.println("The word count is " + wordCount);
+	    out.println("The test word count is " + wordCount);
 	}
 
 }
